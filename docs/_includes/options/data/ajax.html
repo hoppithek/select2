@@ -18,6 +18,22 @@
   <h3>
     What should the results returned to Select2 look like?
   </h3>
+  
+  <p>
+    By default Select2 expects the results to be of <code>'dataType':'json'</code> where all options are Objects with at least <code>id</code> and <code>text</code> properties in an Array assigned to <code>results</code>.
+  </p>
+<pre class="prettyprint">
+{"results":[
+  {
+    "id":1,
+    "text":"Options 1"
+  },
+  {
+  "id":2,
+  "text":"Option 2"
+  }
+]}
+</pre>
 
   {% include options/not-written.html %}
 
